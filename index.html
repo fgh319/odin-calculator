@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>计算器</title>
+  </head>
+
+  <body>
+    <div id="calculator">
+      <div class="display">
+        <div class="expression"></div>
+        <div class="result">0</div>
+      </div>
+      <div class="buttons">
+        <div class="btn clear">C</div>
+        <div class="btn operator remainder" data-value="%">%</div>
+        <div class="btn operator divide" data-value="/">÷</div>
+        <div class="btn operator multiply" data-value="*">×</div>
+        <div class="btn number num7" data-value="7">7</div>
+        <div class="btn number num8" data-value="8">8</div>
+        <div class="btn number num9" data-value="9">9</div>
+        <div class="btn operator subtract" data-value="-">-</div>
+        <div class="btn number num4" data-value="4">4</div>
+        <div class="btn number num5" data-value="5">5</div>
+        <div class="btn number num6" data-value="6">6</div>
+        <div class="btn operator add" data-value="+">+</div>
+        <div class="btn number num1" data-value="1">1</div>
+        <div class="btn number num2" data-value="2">2</div>
+        <div class="btn number num3" data-value="3">3</div>
+        <div class="btn equal">=</div>
+        <div class="btn number num0" data-value="0">0</div>
+        <div class="btn dot" data-value=".">.</div>
+        <div class="btn delete">
+          <?xml version="1.0" encoding="UTF-8"?><svg
+            width="28"
+            height="28"
+            viewBox="0 0 48 48"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M14 11L4 24L14 37H44V11H14Z"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="4"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M21 19L31 29"
+              stroke="currentColor"
+              stroke-width="4"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M31 19L21 29"
+              stroke="currentColor"
+              stroke-width="4"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
